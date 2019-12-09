@@ -12,3 +12,8 @@ lazy val root = (project in file("."))
     scriptedBufferLog := false,
     dependencyOverrides += "org.typelevel" %% "jawn-parser" % "0.14.1"
   )
+
+ThisBuild / githubOwner := "alexander-chelyshev"
+ThisBuild / githubRepository := "sbt-bom"
+
+ThisBuild / githubTokenSource := Some(TokenSource.GitConfig("github.token"))
