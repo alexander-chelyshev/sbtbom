@@ -14,6 +14,6 @@ lazy val root = (project in file("."))
   )
 
 ThisBuild / githubOwner := "alexander-chelyshev"
-ThisBuild / githubRepository := "sbt-bom"
+ThisBuild / githubRepository := "sbtbom"
 
 ThisBuild / githubTokenSource := Some(TokenSource.GitConfig("github.token"))
